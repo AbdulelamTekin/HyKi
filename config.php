@@ -1,7 +1,7 @@
 <?php
 
 	try {		
-		$db = new PDO("mysql:host=localhost;dbname=message",'root','xpsdf1491');
+		$db = new PDO("mysql:host=localhost;dbname=message",'root','');
 		$db->exec("SET NAMES 'utf8'; SET CHARSET 'utf8'");
 	}
 	catch (PDOExpception $e)
