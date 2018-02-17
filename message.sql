@@ -73,12 +73,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `user_name`, `user_pass`, `user_email`, `user_fullName`, `first_name`, `surname`, `user_ip`) VALUES
-(1, 'admin', 'e10adc3949ba59abbe56e057f20f883e', 'abdulselamtekinn@gmail.com', 'Abdulselam TEKİN', '', '', ''),
-(2, 'emir', 'e10adc3949ba59abbe56e057f20f883e', 'emir_keskin@gmail.com', 'Emir Keskin', '', '', ''),
-(3, 'azad', 'e10adc3949ba59abbe56e057f20f883e', 'azad@gmail.com', 'Azat Topal', '', '', ''),
-(4, 'mehmet', 'e10adc3949ba59abbe56e057f20f883e', 'mehmet_atli@gmail.com', 'Mehmet Atlı', '', '', ''),
-(5, 'ruling', 'e10adc3949ba59abbe56e057f20f883e', 'ruling@gmail.com', '', '', '', ''),
-(6, 'Hyki', 'e10adc3949ba59abbe56e057f20f883e', 'Hyki@gmail.com', '', 'Hyki', '', '::1');
+(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin@gmail.com', 'admin', '', '', ''),
+(2, 'test', '098f6bcd4621d373cade4e832627b4f6', 'test@gmail.com', 'Test User', '', '', '');
 
 --
 -- Dökümü yapılmış tablolar için indeksler
